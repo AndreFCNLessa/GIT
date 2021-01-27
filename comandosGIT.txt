@@ -20,3 +20,5 @@ git log																// ver os commites
 git remote add origin https://github.com/AndreFCNLessa/GIT.git		// add ao remote 
 git branch -M main													// não utilizou porem esta no tutorial do Github
 git push -u origin master											// fazendo push
+
+//git push para ser feito o repositorio local precisa estar sincronizado com o repositrorio na nuvem.
