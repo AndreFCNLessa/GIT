@@ -1,0 +1,22 @@
+//Comandos criando repositorio pelo Github
+#git clone https://github.com/AndreFCNLessa/EstudosSTB.git
+copiar arquivos na pasta
+#cd EstudosSTB
+#git status
+#git add *
+#git commit -m "Oque foi feito"
+#git push
+#git log
+
+//criando repositorio por linha de comando
+git init 															// cria repositorio dentro do diretorio que esta
+git init novaPasta													// cria a pasta com repositorio dentro dele
+git add nomeDoArquivo												// adiciona aruivo com nome especificado ou se colocar, * add td . add td no diretorio atual do repositorio
+git commit 															// para fazer o commit como se estivese editando um arquivo pelo vi
+git config --glogal user.name AndreLessa							// configura Nome
+git config --glogal user.email andrefcnlessa@yahoo.com.br			// configura email
+git status															// saber status
+git log																// ver os commites
+git remote add origin https://github.com/AndreFCNLessa/GIT.git		// add ao remote 
+git branch -M main													// não utilizou porem esta no tutorial do Github
+git push -u origin master											// fazendo push
