@@ -24,5 +24,19 @@ git push -u origin master											// fazendo push
 //git push para ser feito o repositorio local precisa estar sincronizado com o repositrorio na nuvem.
 
 git diff HEAD~1 													// mostra a diferença entre os 2 ultimos commites
+git diff numeroDoCommit1 numeroDoCommit2							// mostra diferenças entre 2 commits
+
 git remote -v 														// para ver os repositorios remotes configurados
+
 git pull															// para puchar as modificações do repositorio remoto feito por outra pessoa
+
+git checkout numeroDoCommitPodeSerVistoComGitLog					// Comando para voltar a uma versão anterior
+git checkout master													// Para voltar ao repositorio atual
+git checkout --	nome do arquivo										// Para descartar as mudanças realizadas, volta ao estado do ultimo commit
+git checkout HEAD -- arquivo										// volta para o commite anterior apos ja ter feito um add
+
+git revert numeroDoCommitPodeSerVistoComGitLog						// Comando usado para cancelar o commit feito
+
+git reset HEAD~1													// apaga do repositorio 1 commit 2 apaga dois...., porem a mudanças realizadas continuam nos arquivos
+git reset HEAD~1 --hard												// apaga do repositorio 1 commit 2 apaga dois...., e volta para o estado do commit anterior alterando os arquivos
+
