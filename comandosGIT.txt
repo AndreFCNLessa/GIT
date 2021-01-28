@@ -22,3 +22,5 @@ git branch -M main													// não utilizou porem esta no tutorial do Github
 git push -u origin master											// fazendo push
 
 //git push para ser feito o repositorio local precisa estar sincronizado com o repositrorio na nuvem.
+
+git diff HEAD~1 													// mostra a diferença entre os 2 ultimos commites
